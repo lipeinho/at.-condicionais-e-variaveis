@@ -1,0 +1,7 @@
+nota1=int(input("digite a pirmeira nota: "))
+nota2=int(input("digite a segunda nota: "))
+nota3=int(input("digite a terceira nota: "))
+
+media=(nota1*2)+(nota2*2)+(nota3*3)/7
+
+print(media)
