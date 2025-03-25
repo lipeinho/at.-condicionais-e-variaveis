@@ -1,0 +1,8 @@
+valor_total=int(input("Informe o valor total das suas mercadorias: "))
+
+if valor_total < 500:
+  print("não houve imposto sobre o valor informado.")
+else:
+  imposto=valor_total/2+valor_total
+  print("o valor informado foi acrescido em 50%. Segue o reajuste: ")
+  print(imposto)
