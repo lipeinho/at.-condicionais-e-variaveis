@@ -1,0 +1,7 @@
+valor=int(input("Informe um valor em segundos(s) "))
+
+minutos=valor/60
+horas=minutos/60
+dias=horas/24
+
+print(minutos, horas, dias)
