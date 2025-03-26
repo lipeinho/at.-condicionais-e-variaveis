@@ -1,0 +1,6 @@
+numero=int(input("Informe um número ímpar: "))
+anterior = numero - 2
+proximo = numero + 2
+diferenca= anterior**2-proximo**2
+
+print(diferenca)
