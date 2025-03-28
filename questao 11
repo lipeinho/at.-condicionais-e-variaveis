@@ -1,0 +1,7 @@
+usuario=input("Informe seu nome de usuário: ")
+senha=input("Informe sua senha: ")
+
+if usuario==senha:
+  print("usuário e senha não podem ser iguais")
+else:
+  print("MASSA")
