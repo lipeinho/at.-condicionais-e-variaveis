@@ -1,0 +1,11 @@
+num=int(input("Informe um número inteiro maior que 1: "))
+
+if num <= 1:
+    print("O número informado deve ser maior que 1")
+else:
+  for i in range(2, num):
+    if num % i == 0:
+      print(num, "não é um número primo")
+      break
+  else:
+    print(num, "é um número primo!")
